@@ -1,0 +1,6 @@
+bob shanghai#200000
+amy beijing#100000
+alice shanghai#200000
+tom beijing#100000
+lulu hangzhou#310000
+nick shanghai#200000

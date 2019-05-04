@@ -1,0 +1,1 @@
+nohup mvn exec:java &

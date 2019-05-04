@@ -1,0 +1,704 @@
+2018-12-09 11:10:28 上午 [Thread: main][ Class:com.mchange.v2.log.MLog >> Method: com.mchange.v2.log.MLog.<clinit>(MLog.java:80) ]
+INFO:MLog clients using log4j logging.
+2018-12-09 11:10:28 上午 [Thread: main][ Class:com.mchange.v2.c3p0.C3P0Registry >> Method: com.mchange.v2.c3p0.C3P0Registry.banner(C3P0Registry.java:204) ]
+INFO:Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2018-12-09 11:10:28 上午 [Thread: main][ Class:com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean >> Method: com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean.reinitialize(DynamicPooledDataSourceManagerMBean.java:236) ]
+DEBUG:MBean: com.mchange.v2.c3p0:type=PooledDataSource[1bqpi1e9z147t8zsqfywi5|57fa26b7] registered.
+2018-12-09 11:10:28 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.incrementPendingAcquires(BasicResourcePool.java:404) ]
+DEBUG:incremented pending_acquires: 1
+2018-12-09 11:10:28 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.incrementPendingAcquires(BasicResourcePool.java:404) ]
+DEBUG:incremented pending_acquires: 2
+2018-12-09 11:10:28 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.incrementPendingAcquires(BasicResourcePool.java:404) ]
+DEBUG:incremented pending_acquires: 3
+2018-12-09 11:10:28 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.incrementPendingAcquires(BasicResourcePool.java:404) ]
+DEBUG:incremented pending_acquires: 4
+2018-12-09 11:10:28 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.incrementPendingAcquires(BasicResourcePool.java:404) ]
+DEBUG:incremented pending_acquires: 5
+2018-12-09 11:10:28 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.<init>(BasicResourcePool.java:289) ]
+DEBUG:com.mchange.v2.resourcepool.BasicResourcePool@1936f0f5 config: [start -> 3; min -> 5; max -> 20; inc -> 5; num_acq_attempts -> 30; acq_attempt_delay -> 1000; check_idle_resources_delay -> 10000000; mox_resource_age -> 0; max_idle_time -> 0; excess_max_idle_time -> 0; destroy_unreturned_resc_time -> 0; expiration_enforcement_delay -> 0; break_on_acquisition_failure -> false; debug_store_checkout_exceptions -> false]
+2018-12-09 11:10:28 上午 [Thread: main][ Class:com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource >> Method: com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getPoolManager(AbstractPoolBackedDataSource.java:462) ]
+INFO:Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1bqpi1e9z147t8zsqfywi5|57fa26b7, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1bqpi1e9z147t8zsqfywi5|57fa26b7, idleConnectionTestPeriod -> 10000, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/monitor_alarm?characterEncoding=UTF-8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 180, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> SELECT 1, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2018-12-09 11:10:28 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.prelimCheckoutResource(BasicResourcePool.java:538) ]
+DEBUG:acquire test -- pool size: 0; target_pool_size: 5; desired target? 1
+2018-12-09 11:10:28 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.awaitAvailable(BasicResourcePool.java:1291) ]
+DEBUG:awaitAvailable(): [unknown]
+2018-12-09 11:10:28 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@1936f0f5 [managed: 0, unused: 0, excluded: 0]
+2018-12-09 11:10:28 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkinAll(GooGooStatementCache.java:297) ]
+DEBUG:checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 0; checked out: 0; num connections: 0; num keys: 0
+2018-12-09 11:10:28 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkinAll(GooGooStatementCache.java:297) ]
+DEBUG:checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 0; checked out: 0; num connections: 0; num keys: 0
+2018-12-09 11:10:28 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:217) ]
+DEBUG:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@e7e7113.acquireResource() returning. 
+2018-12-09 11:10:28 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkinAll(GooGooStatementCache.java:297) ]
+DEBUG:checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 0; checked out: 0; num connections: 0; num keys: 0
+2018-12-09 11:10:28 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:217) ]
+DEBUG:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@e7e7113.acquireResource() returning. 
+2018-12-09 11:10:28 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@1936f0f5 [managed: 1, unused: 1, excluded: 0]
+2018-12-09 11:10:28 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:217) ]
+DEBUG:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@e7e7113.acquireResource() returning. 
+2018-12-09 11:10:28 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.decrementPendingAcquires(BasicResourcePool.java:422) ]
+DEBUG:decremented pending_acquires: 4
+2018-12-09 11:10:28 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@1936f0f5 [managed: 2, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@33ebed5)
+2018-12-09 11:10:28 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.decrementPendingAcquires(BasicResourcePool.java:422) ]
+DEBUG:decremented pending_acquires: 3
+2018-12-09 11:10:28 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@1936f0f5 [managed: 2, unused: 1, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@33ebed5)
+2018-12-09 11:10:28 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@1936f0f5 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@33ebed5)
+2018-12-09 11:10:28 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.decrementPendingAcquires(BasicResourcePool.java:422) ]
+DEBUG:decremented pending_acquires: 2
+2018-12-09 11:10:28 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkinAll(GooGooStatementCache.java:297) ]
+DEBUG:checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 0; checked out: 0; num connections: 0; num keys: 0
+2018-12-09 11:10:28 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:217) ]
+DEBUG:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@e7e7113.acquireResource() returning. 
+2018-12-09 11:10:28 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@1936f0f5 [managed: 4, unused: 3, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@33ebed5)
+2018-12-09 11:10:28 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.decrementPendingAcquires(BasicResourcePool.java:422) ]
+DEBUG:decremented pending_acquires: 1
+2018-12-09 11:10:28 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkinAll(GooGooStatementCache.java:297) ]
+DEBUG:checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 0; checked out: 0; num connections: 0; num keys: 0
+2018-12-09 11:10:28 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:217) ]
+DEBUG:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@e7e7113.acquireResource() returning. 
+2018-12-09 11:10:28 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@1936f0f5 [managed: 5, unused: 4, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@33ebed5)
+2018-12-09 11:10:28 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.decrementPendingAcquires(BasicResourcePool.java:422) ]
+DEBUG:decremented pending_acquires: 0
+2018-12-09 11:10:28 上午 [Thread: main][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.assimilateNewCheckedOutStatement(GooGooStatementCache.java:457) ]
+DEBUG:cxnStmtMgr.statementSet( com.mysql.jdbc.JDBC4Connection@21b67a45 ).size(): 1
+2018-12-09 11:10:28 上午 [Thread: main][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkoutStatement(GooGooStatementCache.java:196) ]
+DEBUG:checkoutStatement: com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 1; checked out: 1; num connections: 1; num keys: 1
+2018-12-09 11:10:28 上午 [Thread: main][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkinStatement(GooGooStatementCache.java:271) ]
+DEBUG:checkinStatement(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 1; checked out: 0; num connections: 1; num keys: 1
+2018-12-09 11:10:28 上午 [Thread: main][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkinAll(GooGooStatementCache.java:297) ]
+DEBUG:checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 1; checked out: 0; num connections: 1; num keys: 1
+2018-12-09 11:10:28 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@1936f0f5 [managed: 5, unused: 4, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@33ebed5)
+2018-12-09 11:10:28 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkinAll(GooGooStatementCache.java:297) ]
+DEBUG:checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 1; checked out: 0; num connections: 1; num keys: 1
+2018-12-09 11:10:28 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.finerLoggingTestPooledConnection(C3P0PooledConnectionPool.java:315) ]
+DEBUG:Testing PooledConnection [com.mchange.v2.c3p0.impl.NewPooledConnection@55d84ab9] on CHECKIN.
+2018-12-09 11:10:28 上午 [Thread: main][ Class:sparkstreaming_action.count.service.CountLayer >> Method: sparkstreaming_action.count.service.CountLayer.reload(CountLayer.java:80) ]
+WARN:gameRuleWordCount reload done: 2
+2018-12-09 11:10:28 上午 [Thread: main][ Class:sparkstreaming_action.count.service.CountLayer >> Method: sparkstreaming_action.count.service.CountLayer.<init>(CountLayer.java:30) ]
+WARN:CountLayer init done!
+2018-12-09 11:10:28 上午 [Thread: main][ Class:sparkstreaming_action.count.service.AlarmLayer >> Method: sparkstreaming_action.count.service.AlarmLayer.<init>(AlarmLayer.java:24) ]
+WARN:AlarmLayer init done!
+2018-12-09 11:10:28 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkinAll(GooGooStatementCache.java:297) ]
+DEBUG:checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 1; checked out: 0; num connections: 1; num keys: 1
+2018-12-09 11:10:28 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.finerLoggingTestPooledConnection(C3P0PooledConnectionPool.java:319) ]
+DEBUG:Test of PooledConnection [com.mchange.v2.c3p0.impl.NewPooledConnection@55d84ab9] on CHECKIN has SUCCEEDED.
+2018-12-09 11:10:28 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@1936f0f5 [managed: 5, unused: 4, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@33ebed5)
+2018-12-09 11:10:28 上午 [Thread: main][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.assimilateNewCheckedOutStatement(GooGooStatementCache.java:457) ]
+DEBUG:cxnStmtMgr.statementSet( com.mysql.jdbc.JDBC4Connection@21b67a45 ).size(): 2
+2018-12-09 11:10:28 上午 [Thread: main][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkoutStatement(GooGooStatementCache.java:196) ]
+DEBUG:checkoutStatement: com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 2; checked out: 1; num connections: 1; num keys: 2
+2018-12-09 11:10:28 上午 [Thread: main][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkinStatement(GooGooStatementCache.java:271) ]
+DEBUG:checkinStatement(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 2; checked out: 0; num connections: 1; num keys: 2
+2018-12-09 11:10:28 上午 [Thread: main][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkinAll(GooGooStatementCache.java:297) ]
+DEBUG:checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 2; checked out: 0; num connections: 1; num keys: 2
+2018-12-09 11:10:28 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@1936f0f5 [managed: 5, unused: 4, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@33ebed5)
+2018-12-09 11:10:28 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkinAll(GooGooStatementCache.java:297) ]
+DEBUG:checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 2; checked out: 0; num connections: 1; num keys: 2
+2018-12-09 11:10:28 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.finerLoggingTestPooledConnection(C3P0PooledConnectionPool.java:315) ]
+DEBUG:Testing PooledConnection [com.mchange.v2.c3p0.impl.NewPooledConnection@55d84ab9] on CHECKIN.
+2018-12-09 11:10:28 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkinAll(GooGooStatementCache.java:297) ]
+DEBUG:checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 2; checked out: 0; num connections: 1; num keys: 2
+2018-12-09 11:10:28 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.finerLoggingTestPooledConnection(C3P0PooledConnectionPool.java:319) ]
+DEBUG:Test of PooledConnection [com.mchange.v2.c3p0.impl.NewPooledConnection@55d84ab9] on CHECKIN has SUCCEEDED.
+2018-12-09 11:10:28 上午 [Thread: main][ Class:sparkstreaming_action.count.util.MysqlUtils >> Method: sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:82) ]
+ERROR:java.lang.NullPointerException
+	at sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:80)
+	at sparkstreaming_action.count.main.ConsumerMain.<init>(ConsumerMain.java:43)
+	at sparkstreaming_action.count.main.ConsumerMain.main(ConsumerMain.java:105)
+
+2018-12-09 11:10:28 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@1936f0f5 [managed: 5, unused: 4, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@33ebed5)
+2018-12-09 11:10:28 上午 [Thread: main][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.assimilateNewCheckedOutStatement(GooGooStatementCache.java:457) ]
+DEBUG:cxnStmtMgr.statementSet( com.mysql.jdbc.JDBC4Connection@21b67a45 ).size(): 3
+2018-12-09 11:10:28 上午 [Thread: main][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkoutStatement(GooGooStatementCache.java:196) ]
+DEBUG:checkoutStatement: com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 3; checked out: 1; num connections: 1; num keys: 3
+2018-12-09 11:10:28 上午 [Thread: main][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkinStatement(GooGooStatementCache.java:271) ]
+DEBUG:checkinStatement(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 3; checked out: 0; num connections: 1; num keys: 3
+2018-12-09 11:10:28 上午 [Thread: main][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkinAll(GooGooStatementCache.java:297) ]
+DEBUG:checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 3; checked out: 0; num connections: 1; num keys: 3
+2018-12-09 11:10:28 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@1936f0f5 [managed: 5, unused: 4, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@33ebed5)
+2018-12-09 11:10:28 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkinAll(GooGooStatementCache.java:297) ]
+DEBUG:checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 3; checked out: 0; num connections: 1; num keys: 3
+2018-12-09 11:10:28 上午 [Thread: main][ Class:sparkstreaming_action.count.util.MysqlUtils >> Method: sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:82) ]
+ERROR:java.lang.NullPointerException
+	at sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:80)
+	at sparkstreaming_action.count.main.ConsumerMain.<init>(ConsumerMain.java:44)
+	at sparkstreaming_action.count.main.ConsumerMain.main(ConsumerMain.java:105)
+
+2018-12-09 11:10:28 上午 [Thread: main][ Class:sparkstreaming_action.count.main.ConsumerMain >> Method: sparkstreaming_action.count.main.ConsumerMain.main(ConsumerMain.java:106) ]
+WARN:All things init done!
+2018-12-09 11:10:28 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.finerLoggingTestPooledConnection(C3P0PooledConnectionPool.java:315) ]
+DEBUG:Testing PooledConnection [com.mchange.v2.c3p0.impl.NewPooledConnection@55d84ab9] on CHECKIN.
+2018-12-09 11:10:28 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkinAll(GooGooStatementCache.java:297) ]
+DEBUG:checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 3; checked out: 0; num connections: 1; num keys: 3
+2018-12-09 11:10:28 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.finerLoggingTestPooledConnection(C3P0PooledConnectionPool.java:319) ]
+DEBUG:Test of PooledConnection [com.mchange.v2.c3p0.impl.NewPooledConnection@55d84ab9] on CHECKIN has SUCCEEDED.
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.ConsumerConfig >> Method: org.apache.kafka.common.config.AbstractConfig.logAll(AbstractConfig.java:178) ]
+INFO:ConsumerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 67108864
+	bootstrap.servers = [localhost:9091]
+	ssl.keystore.type = JKS
+	enable.auto.commit = false
+	sasl.mechanism = GSSAPI
+	interceptor.classes = null
+	exclude.internal.topics = true
+	ssl.truststore.password = null
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	max.poll.records = 1000
+	check.crcs = true
+	request.timeout.ms = 40000
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 5000
+	receive.buffer.bytes = 65536
+	ssl.truststore.type = JKS
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	group.id = monitorAlarmCount
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	session.timeout.ms = 35000
+	metrics.num.samples = 2
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	auto.offset.reset = latest
+
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.KafkaConsumer >> Method: org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:597) ]
+DEBUG:Starting the Kafka consumer
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.clients.Metadata >> Method: org.apache.kafka.clients.Metadata.update(Metadata.java:180) ]
+DEBUG:Updated cluster metadata version 1 to Cluster(nodes = [localhost:9091 (id: -1 rack: null)], partitions = [])
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name connections-closed:
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name connections-created:
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name bytes-sent-received:
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name bytes-sent:
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name bytes-received:
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name select-time:
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name io-time:
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.ConsumerConfig >> Method: org.apache.kafka.common.config.AbstractConfig.logAll(AbstractConfig.java:178) ]
+INFO:ConsumerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 67108864
+	bootstrap.servers = [localhost:9091]
+	ssl.keystore.type = JKS
+	enable.auto.commit = false
+	sasl.mechanism = GSSAPI
+	interceptor.classes = null
+	exclude.internal.topics = true
+	ssl.truststore.password = null
+	client.id = consumer-1
+	ssl.endpoint.identification.algorithm = null
+	max.poll.records = 1000
+	check.crcs = true
+	request.timeout.ms = 40000
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 5000
+	receive.buffer.bytes = 65536
+	ssl.truststore.type = JKS
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	group.id = monitorAlarmCount
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	session.timeout.ms = 35000
+	metrics.num.samples = 2
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	auto.offset.reset = latest
+
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name heartbeat-latency
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name join-latency
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name sync-latency
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name commit-latency
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name bytes-fetched
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name records-fetched
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name fetch-latency
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name records-lag
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name fetch-throttle-time
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.common.utils.AppInfoParser >> Method: org.apache.kafka.common.utils.AppInfoParser$AppInfo.<init>(AppInfoParser.java:83) ]
+INFO:Kafka version : 0.10.0.0
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.common.utils.AppInfoParser >> Method: org.apache.kafka.common.utils.AppInfoParser$AppInfo.<init>(AppInfoParser.java:84) ]
+INFO:Kafka commitId : b8642491e78c5a13
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.KafkaConsumer >> Method: org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:696) ]
+DEBUG:Kafka consumer created
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.clients.NetworkClient >> Method: org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496) ]
+DEBUG:Initiating connection to node -1 at localhost:9091.
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name node--1.bytes-sent
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name node--1.bytes-received
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name node--1.latency
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.clients.NetworkClient >> Method: org.apache.kafka.clients.NetworkClient.handleConnections(NetworkClient.java:476) ]
+DEBUG:Completed connection to node -1
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.clients.NetworkClient >> Method: org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:640) ]
+DEBUG:Sending metadata request {topics=[]} to node -1
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.clients.Metadata >> Method: org.apache.kafka.clients.Metadata.update(Metadata.java:180) ]
+DEBUG:Updated cluster metadata version 2 to Cluster(nodes = [localhost:9091 (id: 0 rack: null), localhost:9092 (id: 1 rack: null)], partitions = [])
+2018-12-09 11:10:28 上午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.initialize(KafkaUtils.java:70) ]
+INFO:topic has partition:0
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.KafkaConsumer >> Method: org.apache.kafka.clients.consumer.KafkaConsumer.assign(KafkaConsumer.java:892) ]
+DEBUG:Subscribed to partition(s): monitorAlarmOut-0
+2018-12-09 11:10:28 上午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.initialize(KafkaUtils.java:78) ]
+INFO:Initial partition positions:
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendGroupCoordinatorRequest(AbstractCoordinator.java:476) ]
+DEBUG:Sending coordinator request for group monitorAlarmCount to broker localhost:9092 (id: 1 rack: null)
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.clients.NetworkClient >> Method: org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496) ]
+DEBUG:Initiating connection to node 1 at localhost:9092.
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name node-1.bytes-sent
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name node-1.bytes-received
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name node-1.latency
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.clients.NetworkClient >> Method: org.apache.kafka.clients.NetworkClient.handleConnections(NetworkClient.java:476) ]
+DEBUG:Completed connection to node 1
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:489) ]
+DEBUG:Received group coordinator response ClientResponse(receivedTimeMs=1544325028939, disconnected=false, request=ClientRequest(expectResponse=true, callback=org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient$RequestFutureCompletionHandler@1cab0bfb, request=RequestSend(header={api_key=10,api_version=0,correlation_id=2,client_id=consumer-1}, body={group_id=monitorAlarmCount}), createdTimeMs=1544325028937, sendTimeMs=1544325028938), responseBody={error_code=0,coordinator={node_id=1,host=localhost,port=9092}})
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.clients.NetworkClient >> Method: org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496) ]
+DEBUG:Initiating connection to node 2147483646 at localhost:9092.
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.ConsumerCoordinator >> Method: org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.sendOffsetFetchRequest(ConsumerCoordinator.java:612) ]
+DEBUG:Group monitorAlarmCount fetching committed offsets for partitions: [monitorAlarmOut-0]
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name node-2147483646.bytes-sent
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name node-2147483646.bytes-received
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name node-2147483646.latency
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.clients.NetworkClient >> Method: org.apache.kafka.clients.NetworkClient.handleConnections(NetworkClient.java:476) ]
+DEBUG:Completed connection to node 2147483646
+2018-12-09 11:10:28 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.Fetcher >> Method: org.apache.kafka.clients.consumer.internals.Fetcher.updateFetchPositions(Fetcher.java:173) ]
+DEBUG:Resetting offset for partition monitorAlarmOut-0 to the committed offset 604
+2018-12-09 11:10:28 上午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.logPosition(KafkaUtils.java:118) ]
+INFO:partition 0 position: 604
+2018-12-09 11:10:29 上午 [Thread: main][ Class:org.apache.kafka.clients.NetworkClient >> Method: org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:640) ]
+DEBUG:Sending metadata request {topics=[monitorAlarmOut]} to node 1
+2018-12-09 11:10:29 上午 [Thread: main][ Class:org.apache.kafka.clients.Metadata >> Method: org.apache.kafka.clients.Metadata.update(Metadata.java:180) ]
+DEBUG:Updated cluster metadata version 3 to Cluster(nodes = [localhost:9092 (id: 1 rack: null), localhost:9091 (id: 0 rack: null)], partitions = [Partition(topic = monitorAlarmOut, partition = 0, leader = 1, replicas = [1,], isr = [1,]])
+2018-12-09 11:10:29 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name topic.monitorAlarmOut.bytes-fetched
+2018-12-09 11:10:29 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name topic.monitorAlarmOut.records-fetched
+2018-12-09 11:11:53 上午 [Thread: main][ Class:com.mchange.v2.log.MLog >> Method: com.mchange.v2.log.MLog.<clinit>(MLog.java:80) ]
+INFO:MLog clients using log4j logging.
+2018-12-09 11:11:53 上午 [Thread: main][ Class:com.mchange.v2.c3p0.C3P0Registry >> Method: com.mchange.v2.c3p0.C3P0Registry.banner(C3P0Registry.java:204) ]
+INFO:Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2018-12-09 11:11:53 上午 [Thread: main][ Class:com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean >> Method: com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean.reinitialize(DynamicPooledDataSourceManagerMBean.java:236) ]
+DEBUG:MBean: com.mchange.v2.c3p0:type=PooledDataSource[1bqpi1e9z147v2nxpz6jol|57fa26b7] registered.
+2018-12-09 11:11:53 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.incrementPendingAcquires(BasicResourcePool.java:404) ]
+DEBUG:incremented pending_acquires: 1
+2018-12-09 11:11:53 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.incrementPendingAcquires(BasicResourcePool.java:404) ]
+DEBUG:incremented pending_acquires: 2
+2018-12-09 11:11:53 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.incrementPendingAcquires(BasicResourcePool.java:404) ]
+DEBUG:incremented pending_acquires: 3
+2018-12-09 11:11:53 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.incrementPendingAcquires(BasicResourcePool.java:404) ]
+DEBUG:incremented pending_acquires: 4
+2018-12-09 11:11:53 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.incrementPendingAcquires(BasicResourcePool.java:404) ]
+DEBUG:incremented pending_acquires: 5
+2018-12-09 11:11:53 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.<init>(BasicResourcePool.java:289) ]
+DEBUG:com.mchange.v2.resourcepool.BasicResourcePool@1936f0f5 config: [start -> 3; min -> 5; max -> 20; inc -> 5; num_acq_attempts -> 30; acq_attempt_delay -> 1000; check_idle_resources_delay -> 10000000; mox_resource_age -> 0; max_idle_time -> 0; excess_max_idle_time -> 0; destroy_unreturned_resc_time -> 0; expiration_enforcement_delay -> 0; break_on_acquisition_failure -> false; debug_store_checkout_exceptions -> false]
+2018-12-09 11:11:53 上午 [Thread: main][ Class:com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource >> Method: com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getPoolManager(AbstractPoolBackedDataSource.java:462) ]
+INFO:Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1bqpi1e9z147v2nxpz6jol|57fa26b7, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1bqpi1e9z147v2nxpz6jol|57fa26b7, idleConnectionTestPeriod -> 10000, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/monitor_alarm?characterEncoding=UTF-8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 180, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> SELECT 1, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2018-12-09 11:11:53 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.prelimCheckoutResource(BasicResourcePool.java:538) ]
+DEBUG:acquire test -- pool size: 0; target_pool_size: 5; desired target? 1
+2018-12-09 11:11:53 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.awaitAvailable(BasicResourcePool.java:1291) ]
+DEBUG:awaitAvailable(): [unknown]
+2018-12-09 11:11:53 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@1936f0f5 [managed: 0, unused: 0, excluded: 0]
+2018-12-09 11:11:53 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkinAll(GooGooStatementCache.java:297) ]
+DEBUG:checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 0; checked out: 0; num connections: 0; num keys: 0
+2018-12-09 11:11:53 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkinAll(GooGooStatementCache.java:297) ]
+DEBUG:checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 0; checked out: 0; num connections: 0; num keys: 0
+2018-12-09 11:11:53 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:217) ]
+DEBUG:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@6d6d5e32.acquireResource() returning. 
+2018-12-09 11:11:53 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkinAll(GooGooStatementCache.java:297) ]
+DEBUG:checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 0; checked out: 0; num connections: 0; num keys: 0
+2018-12-09 11:11:53 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:217) ]
+DEBUG:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@6d6d5e32.acquireResource() returning. 
+2018-12-09 11:11:53 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@1936f0f5 [managed: 1, unused: 1, excluded: 0]
+2018-12-09 11:11:53 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:217) ]
+DEBUG:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@6d6d5e32.acquireResource() returning. 
+2018-12-09 11:11:53 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.decrementPendingAcquires(BasicResourcePool.java:422) ]
+DEBUG:decremented pending_acquires: 4
+2018-12-09 11:11:53 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@1936f0f5 [managed: 2, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@433deb02)
+2018-12-09 11:11:53 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.decrementPendingAcquires(BasicResourcePool.java:422) ]
+DEBUG:decremented pending_acquires: 3
+2018-12-09 11:11:53 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@1936f0f5 [managed: 2, unused: 1, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@433deb02)
+2018-12-09 11:11:53 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@1936f0f5 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@433deb02)
+2018-12-09 11:11:53 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.decrementPendingAcquires(BasicResourcePool.java:422) ]
+DEBUG:decremented pending_acquires: 2
+2018-12-09 11:11:53 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkinAll(GooGooStatementCache.java:297) ]
+DEBUG:checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 0; checked out: 0; num connections: 0; num keys: 0
+2018-12-09 11:11:53 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:217) ]
+DEBUG:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@6d6d5e32.acquireResource() returning. 
+2018-12-09 11:11:53 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@1936f0f5 [managed: 4, unused: 3, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@433deb02)
+2018-12-09 11:11:53 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.decrementPendingAcquires(BasicResourcePool.java:422) ]
+DEBUG:decremented pending_acquires: 1
+2018-12-09 11:11:53 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkinAll(GooGooStatementCache.java:297) ]
+DEBUG:checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 0; checked out: 0; num connections: 0; num keys: 0
+2018-12-09 11:11:53 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:217) ]
+DEBUG:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@6d6d5e32.acquireResource() returning. 
+2018-12-09 11:11:53 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@1936f0f5 [managed: 5, unused: 4, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@433deb02)
+2018-12-09 11:11:53 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.decrementPendingAcquires(BasicResourcePool.java:422) ]
+DEBUG:decremented pending_acquires: 0
+2018-12-09 11:11:53 上午 [Thread: main][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.assimilateNewCheckedOutStatement(GooGooStatementCache.java:457) ]
+DEBUG:cxnStmtMgr.statementSet( com.mysql.jdbc.JDBC4Connection@18ed9ef4 ).size(): 1
+2018-12-09 11:11:53 上午 [Thread: main][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkoutStatement(GooGooStatementCache.java:196) ]
+DEBUG:checkoutStatement: com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 1; checked out: 1; num connections: 1; num keys: 1
+2018-12-09 11:11:53 上午 [Thread: main][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkinStatement(GooGooStatementCache.java:271) ]
+DEBUG:checkinStatement(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 1; checked out: 0; num connections: 1; num keys: 1
+2018-12-09 11:11:53 上午 [Thread: main][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkinAll(GooGooStatementCache.java:297) ]
+DEBUG:checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 1; checked out: 0; num connections: 1; num keys: 1
+2018-12-09 11:11:53 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@1936f0f5 [managed: 5, unused: 4, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@433deb02)
+2018-12-09 11:11:53 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkinAll(GooGooStatementCache.java:297) ]
+DEBUG:checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 1; checked out: 0; num connections: 1; num keys: 1
+2018-12-09 11:11:53 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.finerLoggingTestPooledConnection(C3P0PooledConnectionPool.java:315) ]
+DEBUG:Testing PooledConnection [com.mchange.v2.c3p0.impl.NewPooledConnection@46534be1] on CHECKIN.
+2018-12-09 11:11:53 上午 [Thread: main][ Class:sparkstreaming_action.count.service.CountLayer >> Method: sparkstreaming_action.count.service.CountLayer.reload(CountLayer.java:80) ]
+WARN:gameRuleWordCount reload done: 2
+2018-12-09 11:11:53 上午 [Thread: main][ Class:sparkstreaming_action.count.service.CountLayer >> Method: sparkstreaming_action.count.service.CountLayer.<init>(CountLayer.java:30) ]
+WARN:CountLayer init done!
+2018-12-09 11:11:53 上午 [Thread: main][ Class:sparkstreaming_action.count.service.AlarmLayer >> Method: sparkstreaming_action.count.service.AlarmLayer.<init>(AlarmLayer.java:24) ]
+WARN:AlarmLayer init done!
+2018-12-09 11:11:53 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkinAll(GooGooStatementCache.java:297) ]
+DEBUG:checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 1; checked out: 0; num connections: 1; num keys: 1
+2018-12-09 11:11:53 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.finerLoggingTestPooledConnection(C3P0PooledConnectionPool.java:319) ]
+DEBUG:Test of PooledConnection [com.mchange.v2.c3p0.impl.NewPooledConnection@46534be1] on CHECKIN has SUCCEEDED.
+2018-12-09 11:11:53 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@1936f0f5 [managed: 5, unused: 4, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@433deb02)
+2018-12-09 11:11:53 上午 [Thread: main][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.assimilateNewCheckedOutStatement(GooGooStatementCache.java:457) ]
+DEBUG:cxnStmtMgr.statementSet( com.mysql.jdbc.JDBC4Connection@18ed9ef4 ).size(): 2
+2018-12-09 11:11:53 上午 [Thread: main][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkoutStatement(GooGooStatementCache.java:196) ]
+DEBUG:checkoutStatement: com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 2; checked out: 1; num connections: 1; num keys: 2
+2018-12-09 11:11:53 上午 [Thread: main][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkinStatement(GooGooStatementCache.java:271) ]
+DEBUG:checkinStatement(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 2; checked out: 0; num connections: 1; num keys: 2
+2018-12-09 11:11:53 上午 [Thread: main][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkinAll(GooGooStatementCache.java:297) ]
+DEBUG:checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 2; checked out: 0; num connections: 1; num keys: 2
+2018-12-09 11:11:53 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@1936f0f5 [managed: 5, unused: 4, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@433deb02)
+2018-12-09 11:11:53 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkinAll(GooGooStatementCache.java:297) ]
+DEBUG:checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 2; checked out: 0; num connections: 1; num keys: 2
+2018-12-09 11:11:53 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.finerLoggingTestPooledConnection(C3P0PooledConnectionPool.java:315) ]
+DEBUG:Testing PooledConnection [com.mchange.v2.c3p0.impl.NewPooledConnection@46534be1] on CHECKIN.
+2018-12-09 11:11:53 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkinAll(GooGooStatementCache.java:297) ]
+DEBUG:checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 2; checked out: 0; num connections: 1; num keys: 2
+2018-12-09 11:11:53 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.finerLoggingTestPooledConnection(C3P0PooledConnectionPool.java:319) ]
+DEBUG:Test of PooledConnection [com.mchange.v2.c3p0.impl.NewPooledConnection@46534be1] on CHECKIN has SUCCEEDED.
+2018-12-09 11:11:53 上午 [Thread: main][ Class:sparkstreaming_action.count.util.MysqlUtils >> Method: sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:82) ]
+ERROR:java.lang.NullPointerException
+	at sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:80)
+	at sparkstreaming_action.count.main.ConsumerMain.<init>(ConsumerMain.java:43)
+	at sparkstreaming_action.count.main.ConsumerMain.main(ConsumerMain.java:105)
+
+2018-12-09 11:11:53 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@1936f0f5 [managed: 5, unused: 4, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@433deb02)
+2018-12-09 11:11:53 上午 [Thread: main][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.assimilateNewCheckedOutStatement(GooGooStatementCache.java:457) ]
+DEBUG:cxnStmtMgr.statementSet( com.mysql.jdbc.JDBC4Connection@18ed9ef4 ).size(): 3
+2018-12-09 11:11:53 上午 [Thread: main][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkoutStatement(GooGooStatementCache.java:196) ]
+DEBUG:checkoutStatement: com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 3; checked out: 1; num connections: 1; num keys: 3
+2018-12-09 11:11:53 上午 [Thread: main][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkinStatement(GooGooStatementCache.java:271) ]
+DEBUG:checkinStatement(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 3; checked out: 0; num connections: 1; num keys: 3
+2018-12-09 11:11:53 上午 [Thread: main][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkinAll(GooGooStatementCache.java:297) ]
+DEBUG:checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 3; checked out: 0; num connections: 1; num keys: 3
+2018-12-09 11:11:53 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@1936f0f5 [managed: 5, unused: 4, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@433deb02)
+2018-12-09 11:11:53 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkinAll(GooGooStatementCache.java:297) ]
+DEBUG:checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 3; checked out: 0; num connections: 1; num keys: 3
+2018-12-09 11:11:53 上午 [Thread: main][ Class:sparkstreaming_action.count.util.MysqlUtils >> Method: sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:82) ]
+ERROR:java.lang.NullPointerException
+	at sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:80)
+	at sparkstreaming_action.count.main.ConsumerMain.<init>(ConsumerMain.java:44)
+	at sparkstreaming_action.count.main.ConsumerMain.main(ConsumerMain.java:105)
+
+2018-12-09 11:11:53 上午 [Thread: main][ Class:sparkstreaming_action.count.main.ConsumerMain >> Method: sparkstreaming_action.count.main.ConsumerMain.main(ConsumerMain.java:106) ]
+WARN:All things init done!
+2018-12-09 11:11:53 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.finerLoggingTestPooledConnection(C3P0PooledConnectionPool.java:315) ]
+DEBUG:Testing PooledConnection [com.mchange.v2.c3p0.impl.NewPooledConnection@46534be1] on CHECKIN.
+2018-12-09 11:11:53 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.c3p0.stmt.GooGooStatementCache >> Method: com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkinAll(GooGooStatementCache.java:297) ]
+DEBUG:checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 3; checked out: 0; num connections: 1; num keys: 3
+2018-12-09 11:11:53 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.finerLoggingTestPooledConnection(C3P0PooledConnectionPool.java:319) ]
+DEBUG:Test of PooledConnection [com.mchange.v2.c3p0.impl.NewPooledConnection@46534be1] on CHECKIN has SUCCEEDED.
+2018-12-09 11:11:53 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.ConsumerConfig >> Method: org.apache.kafka.common.config.AbstractConfig.logAll(AbstractConfig.java:178) ]
+INFO:ConsumerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 67108864
+	bootstrap.servers = [localhost:9091]
+	ssl.keystore.type = JKS
+	enable.auto.commit = false
+	sasl.mechanism = GSSAPI
+	interceptor.classes = null
+	exclude.internal.topics = true
+	ssl.truststore.password = null
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	max.poll.records = 1000
+	check.crcs = true
+	request.timeout.ms = 40000
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 5000
+	receive.buffer.bytes = 65536
+	ssl.truststore.type = JKS
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	group.id = monitorAlarmCount
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	session.timeout.ms = 35000
+	metrics.num.samples = 2
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	auto.offset.reset = latest
+
+2018-12-09 11:11:53 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.KafkaConsumer >> Method: org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:597) ]
+DEBUG:Starting the Kafka consumer
+2018-12-09 11:11:53 上午 [Thread: main][ Class:org.apache.kafka.clients.Metadata >> Method: org.apache.kafka.clients.Metadata.update(Metadata.java:180) ]
+DEBUG:Updated cluster metadata version 1 to Cluster(nodes = [localhost:9091 (id: -1 rack: null)], partitions = [])
+2018-12-09 11:11:53 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name connections-closed:
+2018-12-09 11:11:53 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name connections-created:
+2018-12-09 11:11:53 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name bytes-sent-received:
+2018-12-09 11:11:53 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name bytes-sent:
+2018-12-09 11:11:53 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name bytes-received:
+2018-12-09 11:11:53 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name select-time:
+2018-12-09 11:11:53 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name io-time:
+2018-12-09 11:11:53 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.ConsumerConfig >> Method: org.apache.kafka.common.config.AbstractConfig.logAll(AbstractConfig.java:178) ]
+INFO:ConsumerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 67108864
+	bootstrap.servers = [localhost:9091]
+	ssl.keystore.type = JKS
+	enable.auto.commit = false
+	sasl.mechanism = GSSAPI
+	interceptor.classes = null
+	exclude.internal.topics = true
+	ssl.truststore.password = null
+	client.id = consumer-1
+	ssl.endpoint.identification.algorithm = null
+	max.poll.records = 1000
+	check.crcs = true
+	request.timeout.ms = 40000
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 5000
+	receive.buffer.bytes = 65536
+	ssl.truststore.type = JKS
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	group.id = monitorAlarmCount
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	session.timeout.ms = 35000
+	metrics.num.samples = 2
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	auto.offset.reset = latest
+
+2018-12-09 11:11:53 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name heartbeat-latency
+2018-12-09 11:11:53 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name join-latency
+2018-12-09 11:11:53 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name sync-latency
+2018-12-09 11:11:53 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name commit-latency
+2018-12-09 11:11:53 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name bytes-fetched
+2018-12-09 11:11:53 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name records-fetched
+2018-12-09 11:11:53 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name fetch-latency
+2018-12-09 11:11:53 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name records-lag
+2018-12-09 11:11:53 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name fetch-throttle-time
+2018-12-09 11:11:53 上午 [Thread: main][ Class:org.apache.kafka.common.utils.AppInfoParser >> Method: org.apache.kafka.common.utils.AppInfoParser$AppInfo.<init>(AppInfoParser.java:83) ]
+INFO:Kafka version : 0.10.0.0
+2018-12-09 11:11:53 上午 [Thread: main][ Class:org.apache.kafka.common.utils.AppInfoParser >> Method: org.apache.kafka.common.utils.AppInfoParser$AppInfo.<init>(AppInfoParser.java:84) ]
+INFO:Kafka commitId : b8642491e78c5a13
+2018-12-09 11:11:53 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.KafkaConsumer >> Method: org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:696) ]
+DEBUG:Kafka consumer created
+2018-12-09 11:11:53 上午 [Thread: main][ Class:org.apache.kafka.clients.NetworkClient >> Method: org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496) ]
+DEBUG:Initiating connection to node -1 at localhost:9091.
+2018-12-09 11:11:53 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name node--1.bytes-sent
+2018-12-09 11:11:53 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name node--1.bytes-received
+2018-12-09 11:11:53 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name node--1.latency
+2018-12-09 11:11:53 上午 [Thread: main][ Class:org.apache.kafka.clients.NetworkClient >> Method: org.apache.kafka.clients.NetworkClient.handleConnections(NetworkClient.java:476) ]
+DEBUG:Completed connection to node -1
+2018-12-09 11:11:53 上午 [Thread: main][ Class:org.apache.kafka.clients.NetworkClient >> Method: org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:640) ]
+DEBUG:Sending metadata request {topics=[]} to node -1
+2018-12-09 11:11:53 上午 [Thread: main][ Class:org.apache.kafka.clients.Metadata >> Method: org.apache.kafka.clients.Metadata.update(Metadata.java:180) ]
+DEBUG:Updated cluster metadata version 2 to Cluster(nodes = [localhost:9091 (id: 0 rack: null), localhost:9092 (id: 1 rack: null)], partitions = [])
+2018-12-09 11:11:54 上午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.initialize(KafkaUtils.java:70) ]
+INFO:topic has partition:0
+2018-12-09 11:11:54 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.KafkaConsumer >> Method: org.apache.kafka.clients.consumer.KafkaConsumer.assign(KafkaConsumer.java:892) ]
+DEBUG:Subscribed to partition(s): monitorAlarmOut-0
+2018-12-09 11:11:54 上午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.initialize(KafkaUtils.java:78) ]
+INFO:Initial partition positions:
+2018-12-09 11:11:54 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendGroupCoordinatorRequest(AbstractCoordinator.java:476) ]
+DEBUG:Sending coordinator request for group monitorAlarmCount to broker localhost:9092 (id: 1 rack: null)
+2018-12-09 11:11:54 上午 [Thread: main][ Class:org.apache.kafka.clients.NetworkClient >> Method: org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496) ]
+DEBUG:Initiating connection to node 1 at localhost:9092.
+2018-12-09 11:11:54 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name node-1.bytes-sent
+2018-12-09 11:11:54 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name node-1.bytes-received
+2018-12-09 11:11:54 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name node-1.latency
+2018-12-09 11:11:54 上午 [Thread: main][ Class:org.apache.kafka.clients.NetworkClient >> Method: org.apache.kafka.clients.NetworkClient.handleConnections(NetworkClient.java:476) ]
+DEBUG:Completed connection to node 1
+2018-12-09 11:11:54 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:489) ]
+DEBUG:Received group coordinator response ClientResponse(receivedTimeMs=1544325114011, disconnected=false, request=ClientRequest(expectResponse=true, callback=org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient$RequestFutureCompletionHandler@1cab0bfb, request=RequestSend(header={api_key=10,api_version=0,correlation_id=2,client_id=consumer-1}, body={group_id=monitorAlarmCount}), createdTimeMs=1544325114008, sendTimeMs=1544325114010), responseBody={error_code=0,coordinator={node_id=1,host=localhost,port=9092}})
+2018-12-09 11:11:54 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-09 11:11:54 上午 [Thread: main][ Class:org.apache.kafka.clients.NetworkClient >> Method: org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496) ]
+DEBUG:Initiating connection to node 2147483646 at localhost:9092.
+2018-12-09 11:11:54 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.ConsumerCoordinator >> Method: org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.sendOffsetFetchRequest(ConsumerCoordinator.java:612) ]
+DEBUG:Group monitorAlarmCount fetching committed offsets for partitions: [monitorAlarmOut-0]
+2018-12-09 11:11:54 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name node-2147483646.bytes-sent
+2018-12-09 11:11:54 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name node-2147483646.bytes-received
+2018-12-09 11:11:54 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name node-2147483646.latency
+2018-12-09 11:11:54 上午 [Thread: main][ Class:org.apache.kafka.clients.NetworkClient >> Method: org.apache.kafka.clients.NetworkClient.handleConnections(NetworkClient.java:476) ]
+DEBUG:Completed connection to node 2147483646
+2018-12-09 11:11:54 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.Fetcher >> Method: org.apache.kafka.clients.consumer.internals.Fetcher.updateFetchPositions(Fetcher.java:173) ]
+DEBUG:Resetting offset for partition monitorAlarmOut-0 to the committed offset 604
+2018-12-09 11:11:54 上午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.logPosition(KafkaUtils.java:118) ]
+INFO:partition 0 position: 604
+2018-12-09 11:11:54 上午 [Thread: main][ Class:org.apache.kafka.clients.NetworkClient >> Method: org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:640) ]
+DEBUG:Sending metadata request {topics=[monitorAlarmOut]} to node 1
+2018-12-09 11:11:54 上午 [Thread: main][ Class:org.apache.kafka.clients.Metadata >> Method: org.apache.kafka.clients.Metadata.update(Metadata.java:180) ]
+DEBUG:Updated cluster metadata version 3 to Cluster(nodes = [localhost:9092 (id: 1 rack: null), localhost:9091 (id: 0 rack: null)], partitions = [Partition(topic = monitorAlarmOut, partition = 0, leader = 1, replicas = [1,], isr = [1,]])
+2018-12-09 11:11:54 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name topic.monitorAlarmOut.bytes-fetched
+2018-12-09 11:11:54 上午 [Thread: main][ Class:org.apache.kafka.common.metrics.Metrics >> Method: org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296) ]
+DEBUG:Added sensor with name topic.monitorAlarmOut.records-fetched

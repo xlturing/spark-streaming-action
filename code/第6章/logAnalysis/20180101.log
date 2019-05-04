@@ -1,0 +1,13 @@
+[info]	main	20180101-list size is 10
+[info]	main	20180101-list size is 11
+[info]	main	20180101-list size is 12
+[info]	main	20180101-list size is 13
+[info]	main	20180101-list size is 14
+[info]	main	20180101-list size is 15
+[warn]	calculate	20180101-zero denominator warning!
+[info]	main	20180101-list size is 16
+[info]	main	20180101-list size is 17
+[error]	readFile	20180101-nullpointer file
+[info]	main	20180101-list size is 18
+[info]	main	20180101-list size is 19
+[info]	main	20180101-list size is 20

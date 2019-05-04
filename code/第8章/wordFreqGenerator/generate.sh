@@ -1,0 +1,1 @@
+java -cp target/wordFreqGenerator-1.0-jar-with-dependencies.jar sparkstreaming_action.producer.main.Producer 10000 test localhost:9091,localhost:9092

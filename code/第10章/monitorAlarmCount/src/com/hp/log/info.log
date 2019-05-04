@@ -1,0 +1,279 @@
+2018-12-11 10:04:42 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 10:04:42 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 10:04:42 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 10:04:42 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 10:15:16 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 10:15:16 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 10:15:16 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 10:15:16 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 10:26:08 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 10:26:08 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 10:26:08 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 10:26:08 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 10:35:08 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 10:35:08 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 10:35:08 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 10:35:08 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 10:44:08 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 10:44:08 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 10:44:08 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 10:44:08 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 10:53:08 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 10:53:08 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 10:53:08 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 10:53:09 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 11:02:09 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 11:02:09 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 11:02:09 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 11:02:09 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 11:11:09 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 11:11:09 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 11:11:09 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 11:11:09 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 11:20:09 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 11:20:09 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 11:20:09 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 11:20:09 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 11:29:09 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 11:29:09 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 11:29:09 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 11:29:09 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 20:46:53 下午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 20:46:53 下午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 20:46:53 下午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 20:46:53 下午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 20:55:54 下午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 20:55:54 下午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 20:55:54 下午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 20:55:54 下午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 21:04:54 下午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 21:04:54 下午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 21:04:54 下午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 21:04:54 下午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 21:13:54 下午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 21:13:54 下午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 21:13:54 下午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 21:13:55 下午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 21:22:55 下午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 21:22:55 下午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 21:22:55 下午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 21:22:55 下午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 21:24:21 下午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:“nm***
+reviewSeg:“	nm	*	*	*
+2018-12-11 21:24:21 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.tryCommit(KafkaUtils.java:106) ]
+INFO:=== After commitSync, now partition positions:
+2018-12-11 21:24:21 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.logPosition(KafkaUtils.java:118) ]
+INFO:partition 0 position: 1244
+2018-12-11 21:24:21 下午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:�
+reviewSeg:�
+2018-12-11 21:24:24 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.tryCommit(KafkaUtils.java:106) ]
+INFO:=== After commitSync, now partition positions:
+2018-12-11 21:24:24 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.logPosition(KafkaUtils.java:118) ]
+INFO:partition 0 position: 1263
+2018-12-11 21:24:24 下午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:�
+reviewSeg:�
+2018-12-11 21:24:27 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.tryCommit(KafkaUtils.java:106) ]
+INFO:=== After commitSync, now partition positions:
+2018-12-11 21:24:27 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.logPosition(KafkaUtils.java:118) ]
+INFO:partition 0 position: 1275
+2018-12-11 21:24:27 下午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:😅😅（�
+reviewSeg:?	?	?	?	（	�
+2018-12-11 21:24:30 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.tryCommit(KafkaUtils.java:106) ]
+INFO:=== After commitSync, now partition positions:
+2018-12-11 21:24:30 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.logPosition(KafkaUtils.java:118) ]
+INFO:partition 0 position: 1290
+2018-12-11 21:24:30 下午 [Thread: main][ Class:sparkstreaming_action.count.service.AlarmLayer >> Method: sparkstreaming_action.count.service.AlarmLayer.alarm(AlarmLayer.java:57) ]
+WARN:[Alarm] 游戏王者荣耀报警: 平衡性问题 (rule_id: 2)
+2018-12-11 21:24:30 下午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:–––––––––�
+reviewSeg:–	–	–	–	–	–	–	–	–	�
+2018-12-11 21:24:33 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.tryCommit(KafkaUtils.java:106) ]
+INFO:=== After commitSync, now partition positions:
+2018-12-11 21:24:33 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.logPosition(KafkaUtils.java:118) ]
+INFO:partition 0 position: 1304
+2018-12-11 21:24:33 下午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:–––––––––�
+reviewSeg:–	–	–	–	–	–	–	–	–	�
+2018-12-11 21:24:33 下午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:–––––––––�
+reviewSeg:–	–	–	–	–	–	–	–	–	�
+2018-12-11 21:24:33 下午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:�
+reviewSeg:�
+2018-12-11 21:24:36 下午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:–––––––––�
+reviewSeg:–	–	–	–	–	–	–	–	–	�
+2018-12-11 21:24:54 下午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:--------------------------------------
+reviewSeg:--------------------------------------
+2018-12-11 21:25:00 下午 [Thread: main][ Class:sparkstreaming_action.count.service.AlarmLayer >> Method: sparkstreaming_action.count.service.AlarmLayer.alarm(AlarmLayer.java:57) ]
+WARN:[Alarm] 游戏王者荣耀报警: 平衡性问题 (rule_id: 2)
+2018-12-11 21:25:03 下午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:~~~~~~~~~~~~~~~~~~~~~~~~~~~
+reviewSeg:~	~	~	~	~	~	~	~	~	~	~	~	~	~	~	~	~	~	~	~	~	~	~	~	~	~	~
+2018-12-11 21:25:09 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.tryCommit(KafkaUtils.java:106) ]
+INFO:=== After commitSync, now partition positions:
+2018-12-11 21:25:09 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.logPosition(KafkaUtils.java:118) ]
+INFO:partition 0 position: 1484
+2018-12-11 21:25:09 下午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:�
+reviewSeg:�
+2018-12-11 21:25:12 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.tryCommit(KafkaUtils.java:106) ]
+INFO:=== After commitSync, now partition positions:
+2018-12-11 21:25:12 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.logPosition(KafkaUtils.java:118) ]
+INFO:partition 0 position: 1499
+2018-12-11 21:25:15 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.tryCommit(KafkaUtils.java:106) ]
+INFO:=== After commitSync, now partition positions:
+2018-12-11 21:25:15 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.logPosition(KafkaUtils.java:118) ]
+INFO:partition 0 position: 1515
+2018-12-11 21:25:18 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.tryCommit(KafkaUtils.java:106) ]
+INFO:=== After commitSync, now partition positions:
+2018-12-11 21:25:18 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.logPosition(KafkaUtils.java:118) ]
+INFO:partition 0 position: 1532
+2018-12-11 21:25:21 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.tryCommit(KafkaUtils.java:106) ]
+INFO:=== After commitSync, now partition positions:
+2018-12-11 21:25:21 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.logPosition(KafkaUtils.java:118) ]
+INFO:partition 0 position: 1545
+2018-12-11 21:25:24 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.tryCommit(KafkaUtils.java:106) ]
+INFO:=== After commitSync, now partition positions:
+2018-12-11 21:25:24 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.logPosition(KafkaUtils.java:118) ]
+INFO:partition 0 position: 1566
+2018-12-11 21:25:27 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.tryCommit(KafkaUtils.java:106) ]
+INFO:=== After commitSync, now partition positions:
+2018-12-11 21:25:27 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.logPosition(KafkaUtils.java:118) ]
+INFO:partition 0 position: 1582
+2018-12-11 21:25:30 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.tryCommit(KafkaUtils.java:106) ]
+INFO:=== After commitSync, now partition positions:
+2018-12-11 21:25:30 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.logPosition(KafkaUtils.java:118) ]
+INFO:partition 0 position: 1596
+2018-12-11 21:25:33 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.tryCommit(KafkaUtils.java:106) ]
+INFO:=== After commitSync, now partition positions:
+2018-12-11 21:25:33 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.logPosition(KafkaUtils.java:118) ]
+INFO:partition 0 position: 1615
+2018-12-11 21:25:36 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.tryCommit(KafkaUtils.java:106) ]
+INFO:=== After commitSync, now partition positions:
+2018-12-11 21:25:36 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.logPosition(KafkaUtils.java:118) ]
+INFO:partition 0 position: 1630
+2018-12-11 21:25:36 下午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 49995	gameName: 第五人格	review:�
+reviewSeg:�
+2018-12-11 21:25:39 下午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 49995	gameName: 第五人格	review:�
+reviewSeg:�
+2018-12-11 21:25:39 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.tryCommit(KafkaUtils.java:106) ]
+INFO:=== After commitSync, now partition positions:
+2018-12-11 21:25:39 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.logPosition(KafkaUtils.java:118) ]
+INFO:partition 0 position: 1644
+2018-12-11 21:25:42 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.tryCommit(KafkaUtils.java:106) ]
+INFO:=== After commitSync, now partition positions:
+2018-12-11 21:25:42 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.logPosition(KafkaUtils.java:118) ]
+INFO:partition 0 position: 1659
+2018-12-11 21:25:45 下午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 49995	gameName: 第五人格	review:| ू•ૅω•́)ᵎᵎᵎ�
+reviewSeg:|	 	ू	•	ૅ	ω	•	́	)	ᵎ	ᵎ	ᵎ	�
+2018-12-11 21:25:45 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.tryCommit(KafkaUtils.java:106) ]
+INFO:=== After commitSync, now partition positions:
+2018-12-11 21:25:45 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.logPosition(KafkaUtils.java:118) ]
+INFO:partition 0 position: 1678
+2018-12-11 21:25:51 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.tryCommit(KafkaUtils.java:106) ]
+INFO:=== After commitSync, now partition positions:
+2018-12-11 21:25:51 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.logPosition(KafkaUtils.java:118) ]
+INFO:partition 0 position: 1708
+2018-12-11 21:26:00 下午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 49995	gameName: 第五人格	review:–––––�
+reviewSeg:–	–	–	–	–	�
+2018-12-11 21:26:00 下午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 49995	gameName: 第五人格	review:�
+reviewSeg:�
+2018-12-11 21:26:03 下午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 49995	gameName: 第五人格	review:(´(エ)
+reviewSeg:(	´	(	エ	)
+2018-12-11 21:26:06 下午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 49995	gameName: 第五人格	review:(-ι_- )
+reviewSeg:(	-	ι	_-	 	)
+2018-12-11 21:26:06 下午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 49995	gameName: 第五人格	review:´_>`
+reviewSeg:´	_	>	`
+2018-12-11 21:26:06 下午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 49995	gameName: 第五人格	review:(´▽`ʃƪ)
+reviewSeg:(	´	▽	`	ʃ	ƪ	)
+2018-12-11 21:26:09 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.tryCommit(KafkaUtils.java:106) ]
+INFO:=== After commitSync, now partition positions:
+2018-12-11 21:26:09 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.logPosition(KafkaUtils.java:118) ]
+INFO:partition 0 position: 1784
+2018-12-11 21:26:12 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.tryCommit(KafkaUtils.java:106) ]
+INFO:=== After commitSync, now partition positions:
+2018-12-11 21:26:12 下午 [Thread: main][ Class:sparkstreaming_action.count.util.KafkaUtils >> Method: sparkstreaming_action.count.util.KafkaUtils.logPosition(KafkaUtils.java:118) ]
+INFO:partition 0 position: 1803
+2018-12-11 21:35:12 下午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 21:35:12 下午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 21:35:12 下午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 21:35:12 下午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.

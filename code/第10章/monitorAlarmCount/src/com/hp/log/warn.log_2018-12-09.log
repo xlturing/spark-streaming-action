@@ -1,0 +1,356 @@
+2018-12-09 11:10:28 上午 [Thread: main][ Class:sparkstreaming_action.count.service.CountLayer >> Method: sparkstreaming_action.count.service.CountLayer.reload(CountLayer.java:80) ]
+WARN:gameRuleWordCount reload done: 2
+2018-12-09 11:10:28 上午 [Thread: main][ Class:sparkstreaming_action.count.service.CountLayer >> Method: sparkstreaming_action.count.service.CountLayer.<init>(CountLayer.java:30) ]
+WARN:CountLayer init done!
+2018-12-09 11:10:28 上午 [Thread: main][ Class:sparkstreaming_action.count.service.AlarmLayer >> Method: sparkstreaming_action.count.service.AlarmLayer.<init>(AlarmLayer.java:24) ]
+WARN:AlarmLayer init done!
+2018-12-09 11:10:28 上午 [Thread: main][ Class:sparkstreaming_action.count.util.MysqlUtils >> Method: sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:82) ]
+ERROR:java.lang.NullPointerException
+	at sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:80)
+	at sparkstreaming_action.count.main.ConsumerMain.<init>(ConsumerMain.java:43)
+	at sparkstreaming_action.count.main.ConsumerMain.main(ConsumerMain.java:105)
+
+2018-12-09 11:10:28 上午 [Thread: main][ Class:sparkstreaming_action.count.util.MysqlUtils >> Method: sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:82) ]
+ERROR:java.lang.NullPointerException
+	at sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:80)
+	at sparkstreaming_action.count.main.ConsumerMain.<init>(ConsumerMain.java:44)
+	at sparkstreaming_action.count.main.ConsumerMain.main(ConsumerMain.java:105)
+
+2018-12-09 11:10:28 上午 [Thread: main][ Class:sparkstreaming_action.count.main.ConsumerMain >> Method: sparkstreaming_action.count.main.ConsumerMain.main(ConsumerMain.java:106) ]
+WARN:All things init done!
+2018-12-09 11:11:07 上午 [Thread: main][ Class:sparkstreaming_action.count.service.CountLayer >> Method: sparkstreaming_action.count.service.CountLayer.reload(CountLayer.java:80) ]
+WARN:gameRuleWordCount reload done: 2
+2018-12-09 11:11:07 上午 [Thread: main][ Class:sparkstreaming_action.count.service.CountLayer >> Method: sparkstreaming_action.count.service.CountLayer.<init>(CountLayer.java:30) ]
+WARN:CountLayer init done!
+2018-12-09 11:11:07 上午 [Thread: main][ Class:sparkstreaming_action.count.service.AlarmLayer >> Method: sparkstreaming_action.count.service.AlarmLayer.<init>(AlarmLayer.java:24) ]
+WARN:AlarmLayer init done!
+2018-12-09 11:11:07 上午 [Thread: main][ Class:sparkstreaming_action.count.util.MysqlUtils >> Method: sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:82) ]
+ERROR:java.lang.NullPointerException
+	at sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:80)
+	at sparkstreaming_action.count.main.ConsumerMain.<init>(ConsumerMain.java:43)
+	at sparkstreaming_action.count.main.ConsumerMain.main(ConsumerMain.java:105)
+
+2018-12-09 11:11:07 上午 [Thread: main][ Class:sparkstreaming_action.count.util.MysqlUtils >> Method: sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:82) ]
+ERROR:java.lang.NullPointerException
+	at sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:80)
+	at sparkstreaming_action.count.main.ConsumerMain.<init>(ConsumerMain.java:44)
+	at sparkstreaming_action.count.main.ConsumerMain.main(ConsumerMain.java:105)
+
+2018-12-09 11:11:07 上午 [Thread: main][ Class:sparkstreaming_action.count.main.ConsumerMain >> Method: sparkstreaming_action.count.main.ConsumerMain.main(ConsumerMain.java:106) ]
+WARN:All things init done!
+2018-12-09 11:11:12 上午 [Thread: main][ Class:sparkstreaming_action.count.service.CountLayer >> Method: sparkstreaming_action.count.service.CountLayer.reload(CountLayer.java:80) ]
+WARN:gameRuleWordCount reload done: 2
+2018-12-09 11:11:12 上午 [Thread: main][ Class:sparkstreaming_action.count.service.CountLayer >> Method: sparkstreaming_action.count.service.CountLayer.<init>(CountLayer.java:30) ]
+WARN:CountLayer init done!
+2018-12-09 11:11:12 上午 [Thread: main][ Class:sparkstreaming_action.count.service.AlarmLayer >> Method: sparkstreaming_action.count.service.AlarmLayer.<init>(AlarmLayer.java:24) ]
+WARN:AlarmLayer init done!
+2018-12-09 11:11:12 上午 [Thread: main][ Class:sparkstreaming_action.count.util.MysqlUtils >> Method: sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:82) ]
+ERROR:java.lang.NullPointerException
+	at sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:80)
+	at sparkstreaming_action.count.main.ConsumerMain.<init>(ConsumerMain.java:43)
+	at sparkstreaming_action.count.main.ConsumerMain.main(ConsumerMain.java:105)
+
+2018-12-09 11:11:12 上午 [Thread: main][ Class:sparkstreaming_action.count.util.MysqlUtils >> Method: sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:82) ]
+ERROR:java.lang.NullPointerException
+	at sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:80)
+	at sparkstreaming_action.count.main.ConsumerMain.<init>(ConsumerMain.java:44)
+	at sparkstreaming_action.count.main.ConsumerMain.main(ConsumerMain.java:105)
+
+2018-12-09 11:11:12 上午 [Thread: main][ Class:sparkstreaming_action.count.main.ConsumerMain >> Method: sparkstreaming_action.count.main.ConsumerMain.main(ConsumerMain.java:106) ]
+WARN:All things init done!
+2018-12-09 11:11:14 上午 [Thread: main][ Class:sparkstreaming_action.count.service.CountLayer >> Method: sparkstreaming_action.count.service.CountLayer.reload(CountLayer.java:80) ]
+WARN:gameRuleWordCount reload done: 2
+2018-12-09 11:11:14 上午 [Thread: main][ Class:sparkstreaming_action.count.service.CountLayer >> Method: sparkstreaming_action.count.service.CountLayer.<init>(CountLayer.java:30) ]
+WARN:CountLayer init done!
+2018-12-09 11:11:14 上午 [Thread: main][ Class:sparkstreaming_action.count.service.AlarmLayer >> Method: sparkstreaming_action.count.service.AlarmLayer.<init>(AlarmLayer.java:24) ]
+WARN:AlarmLayer init done!
+2018-12-09 11:11:14 上午 [Thread: main][ Class:sparkstreaming_action.count.util.MysqlUtils >> Method: sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:82) ]
+ERROR:java.lang.NullPointerException
+	at sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:80)
+	at sparkstreaming_action.count.main.ConsumerMain.<init>(ConsumerMain.java:43)
+	at sparkstreaming_action.count.main.ConsumerMain.main(ConsumerMain.java:105)
+
+2018-12-09 11:11:14 上午 [Thread: main][ Class:sparkstreaming_action.count.util.MysqlUtils >> Method: sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:82) ]
+ERROR:java.lang.NullPointerException
+	at sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:80)
+	at sparkstreaming_action.count.main.ConsumerMain.<init>(ConsumerMain.java:44)
+	at sparkstreaming_action.count.main.ConsumerMain.main(ConsumerMain.java:105)
+
+2018-12-09 11:11:14 上午 [Thread: main][ Class:sparkstreaming_action.count.main.ConsumerMain >> Method: sparkstreaming_action.count.main.ConsumerMain.main(ConsumerMain.java:106) ]
+WARN:All things init done!
+2018-12-09 11:11:41 上午 [Thread: main][ Class:sparkstreaming_action.count.service.CountLayer >> Method: sparkstreaming_action.count.service.CountLayer.reload(CountLayer.java:80) ]
+WARN:gameRuleWordCount reload done: 2
+2018-12-09 11:11:41 上午 [Thread: main][ Class:sparkstreaming_action.count.service.CountLayer >> Method: sparkstreaming_action.count.service.CountLayer.<init>(CountLayer.java:30) ]
+WARN:CountLayer init done!
+2018-12-09 11:11:41 上午 [Thread: main][ Class:sparkstreaming_action.count.service.AlarmLayer >> Method: sparkstreaming_action.count.service.AlarmLayer.<init>(AlarmLayer.java:24) ]
+WARN:AlarmLayer init done!
+2018-12-09 11:11:41 上午 [Thread: main][ Class:sparkstreaming_action.count.util.MysqlUtils >> Method: sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:82) ]
+ERROR:java.lang.NullPointerException
+	at sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:80)
+	at sparkstreaming_action.count.main.ConsumerMain.<init>(ConsumerMain.java:43)
+	at sparkstreaming_action.count.main.ConsumerMain.main(ConsumerMain.java:105)
+
+2018-12-09 11:11:41 上午 [Thread: main][ Class:sparkstreaming_action.count.util.MysqlUtils >> Method: sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:82) ]
+ERROR:java.lang.NullPointerException
+	at sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:80)
+	at sparkstreaming_action.count.main.ConsumerMain.<init>(ConsumerMain.java:44)
+	at sparkstreaming_action.count.main.ConsumerMain.main(ConsumerMain.java:105)
+
+2018-12-09 11:11:41 上午 [Thread: main][ Class:sparkstreaming_action.count.main.ConsumerMain >> Method: sparkstreaming_action.count.main.ConsumerMain.main(ConsumerMain.java:106) ]
+WARN:All things init done!
+2018-12-09 11:11:53 上午 [Thread: main][ Class:sparkstreaming_action.count.service.CountLayer >> Method: sparkstreaming_action.count.service.CountLayer.reload(CountLayer.java:80) ]
+WARN:gameRuleWordCount reload done: 2
+2018-12-09 11:11:53 上午 [Thread: main][ Class:sparkstreaming_action.count.service.CountLayer >> Method: sparkstreaming_action.count.service.CountLayer.<init>(CountLayer.java:30) ]
+WARN:CountLayer init done!
+2018-12-09 11:11:53 上午 [Thread: main][ Class:sparkstreaming_action.count.service.AlarmLayer >> Method: sparkstreaming_action.count.service.AlarmLayer.<init>(AlarmLayer.java:24) ]
+WARN:AlarmLayer init done!
+2018-12-09 11:11:53 上午 [Thread: main][ Class:sparkstreaming_action.count.util.MysqlUtils >> Method: sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:82) ]
+ERROR:java.lang.NullPointerException
+	at sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:80)
+	at sparkstreaming_action.count.main.ConsumerMain.<init>(ConsumerMain.java:43)
+	at sparkstreaming_action.count.main.ConsumerMain.main(ConsumerMain.java:105)
+
+2018-12-09 11:11:53 上午 [Thread: main][ Class:sparkstreaming_action.count.util.MysqlUtils >> Method: sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:82) ]
+ERROR:java.lang.NullPointerException
+	at sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:80)
+	at sparkstreaming_action.count.main.ConsumerMain.<init>(ConsumerMain.java:44)
+	at sparkstreaming_action.count.main.ConsumerMain.main(ConsumerMain.java:105)
+
+2018-12-09 11:11:53 上午 [Thread: main][ Class:sparkstreaming_action.count.main.ConsumerMain >> Method: sparkstreaming_action.count.main.ConsumerMain.main(ConsumerMain.java:106) ]
+WARN:All things init done!
+2018-12-09 11:24:09 上午 [Thread: main][ Class:sparkstreaming_action.count.main.ConsumerMain >> Method: sparkstreaming_action.count.main.ConsumerMain.run(ConsumerMain.java:63) ]
+WARN:[CurDataCount] count: 1
+2018-12-09 11:24:09 上午 [Thread: main][ Class:sparkstreaming_action.count.main.ConsumerMain >> Method: sparkstreaming_action.count.main.ConsumerMain.run(ConsumerMain.java:63) ]
+WARN:[CurDataCount] count: 1
+2018-12-09 11:24:09 上午 [Thread: main][ Class:sparkstreaming_action.count.util.TrashFilterUtils >> Method: sparkstreaming_action.count.util.TrashFilterUtils.parsePatternFile(TrashFilterUtils.java:78) ]
+ERROR:symbol line:  , splits is not 2
+2018-12-09 11:24:09 上午 [Thread: main][ Class:sparkstreaming_action.count.util.TrashFilterUtils >> Method: sparkstreaming_action.count.util.TrashFilterUtils.parsePatternFile(TrashFilterUtils.java:78) ]
+ERROR:symbol line:  , splits is not 2
+2018-12-09 11:24:09 上午 [Thread: main][ Class:sparkstreaming_action.count.util.TrashFilterUtils >> Method: sparkstreaming_action.count.util.TrashFilterUtils.parsePatternFile(TrashFilterUtils.java:78) ]
+ERROR:symbol line:  , splits is not 2
+2018-12-09 11:24:09 上午 [Thread: main][ Class:sparkstreaming_action.count.util.TrashFilterUtils >> Method: sparkstreaming_action.count.util.TrashFilterUtils.parsePatternFile(TrashFilterUtils.java:78) ]
+ERROR:symbol line:  , splits is not 2
+2018-12-09 11:24:12 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:�
+reviewSeg:�
+2018-12-09 11:24:12 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:�
+reviewSeg:�
+2018-12-09 11:24:12 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:�
+reviewSeg:�
+2018-12-09 11:24:12 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:�
+reviewSeg:�
+2018-12-09 11:24:18 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:–––––––––�
+reviewSeg:–	–	–	–	–	–	–	–	–	�
+2018-12-09 11:24:18 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:–––––––––�
+reviewSeg:–	–	–	–	–	–	–	–	–	�
+2018-12-09 11:24:18 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:–––––––––�
+reviewSeg:–	–	–	–	–	–	–	–	–	�
+2018-12-09 11:24:18 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:–––––––––�
+reviewSeg:–	–	–	–	–	–	–	–	–	�
+2018-12-09 11:24:21 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:–––––––––�
+reviewSeg:–	–	–	–	–	–	–	–	–	�
+2018-12-09 11:24:21 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:–––––––––�
+reviewSeg:–	–	–	–	–	–	–	–	–	�
+2018-12-09 11:24:21 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:�
+reviewSeg:�
+2018-12-09 11:24:21 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:�
+reviewSeg:�
+2018-12-09 11:24:21 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:–––––––––�
+reviewSeg:–	–	–	–	–	–	–	–	–	�
+2018-12-09 11:24:21 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:–––––––––�
+reviewSeg:–	–	–	–	–	–	–	–	–	�
+2018-12-09 11:24:30 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:_____________________________________________
+reviewSeg:_____________________________________________
+2018-12-09 11:24:30 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:_____________________________________________
+reviewSeg:_____________________________________________
+2018-12-09 11:24:33 上午 [Thread: main][ Class:sparkstreaming_action.count.service.AlarmLayer >> Method: sparkstreaming_action.count.service.AlarmLayer.alarm(AlarmLayer.java:57) ]
+WARN:[Alarm] 游戏王者荣耀报警: 平衡性问题 (rule_id: 2)
+2018-12-09 11:24:33 上午 [Thread: main][ Class:sparkstreaming_action.count.service.AlarmLayer >> Method: sparkstreaming_action.count.service.AlarmLayer.alarm(AlarmLayer.java:57) ]
+WARN:[Alarm] 游戏王者荣耀报警: 平衡性问题 (rule_id: 2)
+2018-12-09 11:24:36 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:~~~~~~~~~~~~~~~~~~~~~~~~~~~
+reviewSeg:~	~	~	~	~	~	~	~	~	~	~	~	~	~	~	~	~	~	~	~	~	~	~	~	~	~	~
+2018-12-09 11:24:36 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:~~~~~~~~~~~~~~~~~~~~~~~~~~~
+reviewSeg:~	~	~	~	~	~	~	~	~	~	~	~	~	~	~	~	~	~	~	~	~	~	~	~	~	~	~
+2018-12-09 11:24:45 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:�
+reviewSeg:�
+2018-12-09 11:24:45 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:�
+reviewSeg:�
+2018-12-09 11:24:48 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:�
+reviewSeg:�
+2018-12-09 11:24:48 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:�
+reviewSeg:�
+2018-12-09 11:24:54 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:😂�
+reviewSeg:?	?	�
+2018-12-09 11:24:54 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:😂�
+reviewSeg:?	?	�
+2018-12-09 11:24:54 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:1
+reviewSeg:1
+2018-12-09 11:24:54 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:1
+reviewSeg:1
+2018-12-09 11:24:57 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:2
+reviewSeg:2
+2018-12-09 11:24:57 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:2
+reviewSeg:2
+2018-12-09 11:25:03 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:�
+reviewSeg:�
+2018-12-09 11:25:03 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:�
+reviewSeg:�
+2018-12-09 11:25:03 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:3
+reviewSeg:3
+2018-12-09 11:25:03 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:3
+reviewSeg:3
+2018-12-09 11:25:09 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:－�
+reviewSeg:-	�
+2018-12-09 11:25:09 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:－�
+reviewSeg:-	�
+2018-12-09 11:25:12 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:－�
+reviewSeg:-	�
+2018-12-09 11:25:12 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:－�
+reviewSeg:-	�
+2018-12-09 11:25:12 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:－�
+reviewSeg:-	�
+2018-12-09 11:25:12 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 2301	gameName: 王者荣耀	review:－�
+reviewSeg:-	�
+2018-12-09 11:25:27 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 49995	gameName: 第五人格	review:�
+reviewSeg:�
+2018-12-09 11:25:27 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 49995	gameName: 第五人格	review:�
+reviewSeg:�
+2018-12-09 11:25:27 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 49995	gameName: 第五人格	review:�
+reviewSeg:�
+2018-12-09 11:25:27 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 49995	gameName: 第五人格	review:�
+reviewSeg:�
+2018-12-09 11:25:30 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 49995	gameName: 第五人格	review:| ू•ૅω•́)ᵎᵎᵎ�
+reviewSeg:|	 	ू	•	ૅ	ω	•	́	)	ᵎ	ᵎ	ᵎ	�
+2018-12-09 11:25:30 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 49995	gameName: 第五人格	review:| ू•ૅω•́)ᵎᵎᵎ�
+reviewSeg:|	 	ू	•	ૅ	ω	•	́	)	ᵎ	ᵎ	ᵎ	�
+2018-12-09 11:25:39 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 49995	gameName: 第五人格	review:�
+reviewSeg:�
+2018-12-09 11:25:39 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 49995	gameName: 第五人格	review:�
+reviewSeg:�
+2018-12-09 11:25:51 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 49995	gameName: 第五人格	review:——————�
+reviewSeg:—	—	—	—	—	—	�
+2018-12-09 11:25:51 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 49995	gameName: 第五人格	review:——————�
+reviewSeg:—	—	—	—	—	—	�
+2018-12-09 11:25:54 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 49995	gameName: 第五人格	review:——————�
+reviewSeg:—	—	—	—	—	—	�
+2018-12-09 11:25:54 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 49995	gameName: 第五人格	review:——————�
+reviewSeg:—	—	—	—	—	—	�
+2018-12-09 11:25:54 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 49995	gameName: 第五人格	review:——————�
+reviewSeg:—	—	—	—	—	—	�
+2018-12-09 11:25:54 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 49995	gameName: 第五人格	review:——————�
+reviewSeg:—	—	—	—	—	—	�
+2018-12-09 11:25:57 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 49995	gameName: 第五人格	review:–––––�
+reviewSeg:–	–	–	–	–	�
+2018-12-09 11:25:57 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 49995	gameName: 第五人格	review:–––––�
+reviewSeg:–	–	–	–	–	�
+2018-12-09 11:26:00 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 49995	gameName: 第五人格	review:�
+reviewSeg:�
+2018-12-09 11:26:00 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 49995	gameName: 第五人格	review:�
+reviewSeg:�
+2018-12-09 11:26:03 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 49995	gameName: 第五人格	review:(´(エ)
+reviewSeg:(	´	(	エ	)
+2018-12-09 11:26:03 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 49995	gameName: 第五人格	review:(´(エ)
+reviewSeg:(	´	(	エ	)
+2018-12-09 11:26:03 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 49995	gameName: 第五人格	review:(-ι_- )
+reviewSeg:(	-	ι	_-	 	)
+2018-12-09 11:26:03 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 49995	gameName: 第五人格	review:(-ι_- )
+reviewSeg:(	-	ι	_-	 	)
+2018-12-09 11:26:03 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 49995	gameName: 第五人格	review:´_>`
+reviewSeg:´	_	>	`
+2018-12-09 11:26:03 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 49995	gameName: 第五人格	review:´_>`
+reviewSeg:´	_	>	`
+2018-12-09 11:26:06 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 49995	gameName: 第五人格	review:(´▽`ʃƪ)
+reviewSeg:(	´	▽	`	ʃ	ƪ	)
+2018-12-09 11:26:06 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 49995	gameName: 第五人格	review:(´▽`ʃƪ)
+reviewSeg:(	´	▽	`	ʃ	ƪ	)
+2018-12-09 11:26:12 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 49995	gameName: 第五人格	review:………�
+reviewSeg:…	…	…	�
+2018-12-09 11:26:12 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 49995	gameName: 第五人格	review:………�
+reviewSeg:…	…	…	�
+2018-12-09 11:26:15 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 49995	gameName: 第五人格	review:�
+reviewSeg:�
+2018-12-09 11:26:15 上午 [Thread: main][ Class:sparkstreaming_action.count.service.FilterLayer >> Method: sparkstreaming_action.count.service.FilterLayer.filter(FilterLayer.java:37) ]
+WARN:[filterTrash] gameId: 49995	gameName: 第五人格	review:�
+reviewSeg:�
+2018-12-09 12:14:37 下午 [Thread: main][ Class:sparkstreaming_action.count.main.ConsumerMain >> Method: sparkstreaming_action.count.main.ConsumerMain.run(ConsumerMain.java:86) ]
+WARN:rules or games changed!
+2018-12-09 12:14:37 下午 [Thread: main][ Class:sparkstreaming_action.count.main.ConsumerMain >> Method: sparkstreaming_action.count.main.ConsumerMain.run(ConsumerMain.java:86) ]
+WARN:rules or games changed!
+2018-12-09 12:14:37 下午 [Thread: main][ Class:sparkstreaming_action.count.service.CountLayer >> Method: sparkstreaming_action.count.service.CountLayer.reload(CountLayer.java:80) ]
+WARN:gameRuleWordCount reload done: 2
+2018-12-09 12:14:37 下午 [Thread: main][ Class:sparkstreaming_action.count.service.CountLayer >> Method: sparkstreaming_action.count.service.CountLayer.reload(CountLayer.java:80) ]
+WARN:gameRuleWordCount reload done: 2
+2018-12-09 12:14:37 下午 [Thread: main][ Class:sparkstreaming_action.count.util.TrashFilterUtils >> Method: sparkstreaming_action.count.util.TrashFilterUtils.parsePatternFile(TrashFilterUtils.java:78) ]
+ERROR:symbol line:  , splits is not 2
+2018-12-09 12:14:37 下午 [Thread: main][ Class:sparkstreaming_action.count.util.TrashFilterUtils >> Method: sparkstreaming_action.count.util.TrashFilterUtils.parsePatternFile(TrashFilterUtils.java:78) ]
+ERROR:symbol line:  , splits is not 2
+2018-12-09 12:14:37 下午 [Thread: main][ Class:sparkstreaming_action.count.util.TrashFilterUtils >> Method: sparkstreaming_action.count.util.TrashFilterUtils.parsePatternFile(TrashFilterUtils.java:78) ]
+ERROR:symbol line:  , splits is not 2
+2018-12-09 12:14:37 下午 [Thread: main][ Class:sparkstreaming_action.count.util.TrashFilterUtils >> Method: sparkstreaming_action.count.util.TrashFilterUtils.parsePatternFile(TrashFilterUtils.java:78) ]
+ERROR:symbol line:  , splits is not 2

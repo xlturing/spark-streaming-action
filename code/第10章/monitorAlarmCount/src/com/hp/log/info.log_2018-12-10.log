@@ -1,0 +1,96 @@
+2018-12-11 10:04:42 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 10:04:42 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 10:04:42 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 10:04:42 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 10:15:16 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 10:15:16 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 10:15:16 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 10:15:16 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 10:26:08 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 10:26:08 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 10:26:08 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 10:26:08 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 10:35:08 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 10:35:08 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 10:35:08 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 10:35:08 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 10:44:08 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 10:44:08 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 10:44:08 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 10:44:08 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 10:53:08 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 10:53:08 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 10:53:08 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 10:53:09 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 11:02:09 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 11:02:09 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 11:02:09 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 11:02:09 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 11:11:09 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 11:11:09 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 11:11:09 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 11:11:09 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 11:20:09 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 11:20:09 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 11:20:09 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 11:20:09 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 11:29:09 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 11:29:09 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 11:29:09 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 11:29:09 上午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 20:46:53 下午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 20:46:53 下午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 20:46:53 下午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 20:46:53 下午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 20:55:53 下午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 20:55:53 下午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.
+2018-12-11 20:55:53 下午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542) ]
+INFO:Marking the coordinator localhost:9092 (id: 2147483646 rack: null) dead for group monitorAlarmCount
+2018-12-11 20:55:53 下午 [Thread: main][ Class:org.apache.kafka.clients.consumer.internals.AbstractCoordinator >> Method: org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505) ]
+INFO:Discovered coordinator localhost:9092 (id: 2147483646 rack: null) for group monitorAlarmCount.

@@ -1,0 +1,1 @@
+java -cp target/userBehaviorGenerator-1.0-jar-with-dependencies.jar sparkstreaming_action.producer.main.ConsumerTest localhost:9091,localhost:9092 test_group userBehavior

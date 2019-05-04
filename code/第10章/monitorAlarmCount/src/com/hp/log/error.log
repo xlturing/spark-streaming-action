@@ -1,0 +1,88 @@
+2018-12-09 11:10:28 上午 [Thread: main][ Class:sparkstreaming_action.count.util.MysqlUtils >> Method: sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:82) ]
+ERROR:java.lang.NullPointerException
+	at sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:80)
+	at sparkstreaming_action.count.main.ConsumerMain.<init>(ConsumerMain.java:43)
+	at sparkstreaming_action.count.main.ConsumerMain.main(ConsumerMain.java:105)
+
+2018-12-09 11:10:28 上午 [Thread: main][ Class:sparkstreaming_action.count.util.MysqlUtils >> Method: sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:82) ]
+ERROR:java.lang.NullPointerException
+	at sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:80)
+	at sparkstreaming_action.count.main.ConsumerMain.<init>(ConsumerMain.java:44)
+	at sparkstreaming_action.count.main.ConsumerMain.main(ConsumerMain.java:105)
+
+2018-12-09 11:11:07 上午 [Thread: main][ Class:sparkstreaming_action.count.util.MysqlUtils >> Method: sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:82) ]
+ERROR:java.lang.NullPointerException
+	at sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:80)
+	at sparkstreaming_action.count.main.ConsumerMain.<init>(ConsumerMain.java:43)
+	at sparkstreaming_action.count.main.ConsumerMain.main(ConsumerMain.java:105)
+
+2018-12-09 11:11:07 上午 [Thread: main][ Class:sparkstreaming_action.count.util.MysqlUtils >> Method: sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:82) ]
+ERROR:java.lang.NullPointerException
+	at sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:80)
+	at sparkstreaming_action.count.main.ConsumerMain.<init>(ConsumerMain.java:44)
+	at sparkstreaming_action.count.main.ConsumerMain.main(ConsumerMain.java:105)
+
+2018-12-09 11:11:12 上午 [Thread: main][ Class:sparkstreaming_action.count.util.MysqlUtils >> Method: sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:82) ]
+ERROR:java.lang.NullPointerException
+	at sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:80)
+	at sparkstreaming_action.count.main.ConsumerMain.<init>(ConsumerMain.java:43)
+	at sparkstreaming_action.count.main.ConsumerMain.main(ConsumerMain.java:105)
+
+2018-12-09 11:11:12 上午 [Thread: main][ Class:sparkstreaming_action.count.util.MysqlUtils >> Method: sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:82) ]
+ERROR:java.lang.NullPointerException
+	at sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:80)
+	at sparkstreaming_action.count.main.ConsumerMain.<init>(ConsumerMain.java:44)
+	at sparkstreaming_action.count.main.ConsumerMain.main(ConsumerMain.java:105)
+
+2018-12-09 11:11:14 上午 [Thread: main][ Class:sparkstreaming_action.count.util.MysqlUtils >> Method: sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:82) ]
+ERROR:java.lang.NullPointerException
+	at sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:80)
+	at sparkstreaming_action.count.main.ConsumerMain.<init>(ConsumerMain.java:43)
+	at sparkstreaming_action.count.main.ConsumerMain.main(ConsumerMain.java:105)
+
+2018-12-09 11:11:14 上午 [Thread: main][ Class:sparkstreaming_action.count.util.MysqlUtils >> Method: sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:82) ]
+ERROR:java.lang.NullPointerException
+	at sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:80)
+	at sparkstreaming_action.count.main.ConsumerMain.<init>(ConsumerMain.java:44)
+	at sparkstreaming_action.count.main.ConsumerMain.main(ConsumerMain.java:105)
+
+2018-12-09 11:11:41 上午 [Thread: main][ Class:sparkstreaming_action.count.util.MysqlUtils >> Method: sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:82) ]
+ERROR:java.lang.NullPointerException
+	at sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:80)
+	at sparkstreaming_action.count.main.ConsumerMain.<init>(ConsumerMain.java:43)
+	at sparkstreaming_action.count.main.ConsumerMain.main(ConsumerMain.java:105)
+
+2018-12-09 11:11:41 上午 [Thread: main][ Class:sparkstreaming_action.count.util.MysqlUtils >> Method: sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:82) ]
+ERROR:java.lang.NullPointerException
+	at sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:80)
+	at sparkstreaming_action.count.main.ConsumerMain.<init>(ConsumerMain.java:44)
+	at sparkstreaming_action.count.main.ConsumerMain.main(ConsumerMain.java:105)
+
+2018-12-09 11:11:53 上午 [Thread: main][ Class:sparkstreaming_action.count.util.MysqlUtils >> Method: sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:82) ]
+ERROR:java.lang.NullPointerException
+	at sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:80)
+	at sparkstreaming_action.count.main.ConsumerMain.<init>(ConsumerMain.java:43)
+	at sparkstreaming_action.count.main.ConsumerMain.main(ConsumerMain.java:105)
+
+2018-12-09 11:11:53 上午 [Thread: main][ Class:sparkstreaming_action.count.util.MysqlUtils >> Method: sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:82) ]
+ERROR:java.lang.NullPointerException
+	at sparkstreaming_action.count.util.MysqlUtils.getUpdateTime(MysqlUtils.java:80)
+	at sparkstreaming_action.count.main.ConsumerMain.<init>(ConsumerMain.java:44)
+	at sparkstreaming_action.count.main.ConsumerMain.main(ConsumerMain.java:105)
+
+2018-12-09 11:24:09 上午 [Thread: main][ Class:sparkstreaming_action.count.util.TrashFilterUtils >> Method: sparkstreaming_action.count.util.TrashFilterUtils.parsePatternFile(TrashFilterUtils.java:78) ]
+ERROR:symbol line:  , splits is not 2
+2018-12-09 11:24:09 上午 [Thread: main][ Class:sparkstreaming_action.count.util.TrashFilterUtils >> Method: sparkstreaming_action.count.util.TrashFilterUtils.parsePatternFile(TrashFilterUtils.java:78) ]
+ERROR:symbol line:  , splits is not 2
+2018-12-09 11:24:09 上午 [Thread: main][ Class:sparkstreaming_action.count.util.TrashFilterUtils >> Method: sparkstreaming_action.count.util.TrashFilterUtils.parsePatternFile(TrashFilterUtils.java:78) ]
+ERROR:symbol line:  , splits is not 2
+2018-12-09 11:24:09 上午 [Thread: main][ Class:sparkstreaming_action.count.util.TrashFilterUtils >> Method: sparkstreaming_action.count.util.TrashFilterUtils.parsePatternFile(TrashFilterUtils.java:78) ]
+ERROR:symbol line:  , splits is not 2
+2018-12-09 12:14:37 下午 [Thread: main][ Class:sparkstreaming_action.count.util.TrashFilterUtils >> Method: sparkstreaming_action.count.util.TrashFilterUtils.parsePatternFile(TrashFilterUtils.java:78) ]
+ERROR:symbol line:  , splits is not 2
+2018-12-09 12:14:37 下午 [Thread: main][ Class:sparkstreaming_action.count.util.TrashFilterUtils >> Method: sparkstreaming_action.count.util.TrashFilterUtils.parsePatternFile(TrashFilterUtils.java:78) ]
+ERROR:symbol line:  , splits is not 2
+2018-12-09 12:14:37 下午 [Thread: main][ Class:sparkstreaming_action.count.util.TrashFilterUtils >> Method: sparkstreaming_action.count.util.TrashFilterUtils.parsePatternFile(TrashFilterUtils.java:78) ]
+ERROR:symbol line:  , splits is not 2
+2018-12-09 12:14:37 下午 [Thread: main][ Class:sparkstreaming_action.count.util.TrashFilterUtils >> Method: sparkstreaming_action.count.util.TrashFilterUtils.parsePatternFile(TrashFilterUtils.java:78) ]
+ERROR:symbol line:  , splits is not 2
