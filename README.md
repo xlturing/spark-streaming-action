@@ -2,10 +2,10 @@
 感谢各位读者购买本书，书中基本每一个章节都有实例对应，我将源代码整理放在这里，需要的读者可以自行下载~
 
 ## 书籍直达
-![](https://img2018.cnblogs.com/blog/524764/201905/524764-20190521154614189-500153579.png)
+![](https://img2018.cnblogs.com/blog/524764/201905/524764-20190521154909762-1507180930.png)
 
-http://product.dangdang.com/27861185.html
-https://item.jd.com/12520549.html
+* http://product.dangdang.com/27861185.html
+* https://item.jd.com/12520549.html
 
 ## 疑问与交流
 各位读者有任何疑问以及想要交流的点欢迎关注微信号或者加入QQ群，有任何修正我也会第一时间给出~
