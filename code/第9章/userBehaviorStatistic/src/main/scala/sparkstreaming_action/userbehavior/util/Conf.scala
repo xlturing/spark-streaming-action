@@ -12,6 +12,7 @@ object Conf {
   val SEPERATOR = "\t"
 
   // 窗口配置
+  val INDEX_TIEMSTAMP = 1
   val MAX_CNT = 25
   val EXPIRE_DURATION = 60 * 60 * 24 * 3
   var windowSize = 72 * 3600
